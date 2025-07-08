@@ -128,27 +128,52 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              {
-                icon: MessageCircle,
-                title: "Language Delay Therapy",
-                description: "Supporting children and adults with language development delays through targeted interventions."
-              },
-              {
-                icon: Heart,
-                title: "Autism-related Communication",
-                description: "Compassionate support for individuals with autism spectrum disorder communication needs."
-              },
-              {
-                icon: Video,
-                title: "Online Sessions",
-                description: "Convenient virtual therapy sessions with the same quality care from home."
-              },
-              {
-                icon: Brain,
-                title: "Fluency/Stuttering Support",
-                description: "Specialized techniques to improve speech fluency and reduce stuttering patterns."
-              }
-            ].map((service, index) => (
+  {
+    icon: MessageCircle,
+    title: "Language Delay Therapy",
+    description: "Supporting children and adults with language development delays through targeted interventions."
+  },
+  {
+    icon: Heart,
+    title: "Autism-related Communication",
+    description: "Compassionate support for individuals with autism spectrum disorder communication needs."
+  },
+  {
+    icon: Video,
+    title: "Online Sessions",
+    description: "Convenient virtual therapy sessions with the same quality care from home."
+  },
+  {
+    icon: Brain,
+    title: "Fluency/Stuttering Support",
+    description: "Specialized techniques to improve speech fluency and reduce stuttering patterns."
+  },
+  {
+    icon: MessageCircle,
+    title: "Speech & Language Support",
+    description: "Evidence-based strategies to support communication and expressive language skills."
+  },
+  {
+    icon: Heart,
+    title: "Emotional & Behavioral Guidance",
+    description: "Coaching to manage anxiety, confidence, tantrums, and emotional development."
+  },
+  {
+    icon: Brain,
+    title: "ABA-Based Behavior Support",
+    description: "Routine-building, behavior reduction, and parent training using ABA methods."
+  },
+  {
+    icon: Video,
+    title: "Articulation Therapy",
+    description: "Improving pronunciation and clarity of speech sounds for confident communication."
+  },
+  {
+    icon: Home,
+    title: "Social Communication Skills",
+    description: "Helping individuals navigate conversations and social situations with ease."
+  }
+].map((service, index) => (
               <Card key={index} className="bg-card shadow-soft border-primary/10 hover:shadow-therapy transition-all hover:scale-105">
                 <CardContent className="p-6 text-center">
                   <div className="w-16 h-16 bg-gradient-caring rounded-full flex items-center justify-center mx-auto mb-4">
