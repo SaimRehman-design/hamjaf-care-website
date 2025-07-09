@@ -96,16 +96,16 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="text-center md:text-left">
-                  <p className="text-lg text-foreground leading-relaxed">
-                    HamJaf Therapy and Care Center is led by a certified speech therapist 
-                    dedicated to helping children and adults improve communication through 
-                    personalized, evidence-based care. We believe every individual deserves 
-                    the opportunity to express themselves clearly and confidently.
-                  </p>
-                  <p className="text-muted-foreground mt-4">
-                    Our approach combines professional expertise with genuine care, 
-                    creating a supportive environment where growth and healing happen naturally.
-                  </p>
+                <p className="text-lg text-foreground leading-relaxed">
+  HamJaf Therapy and Care Center is led by a certified speech therapist 
+  dedicated to helping children and adults improve communication and emotional well-being 
+  through personalized, evidence-based care. We believe every individual deserves 
+  the opportunity to express themselves clearly and thrive emotionally.
+</p>
+<p className="text-muted-foreground mt-4">
+  Our approach combines professional expertise in speech therapy with a deep commitment to mental and emotional health—offering a safe, nurturing space where growth, healing, and confidence can flourish.
+</p>
+
                 </div>
               </div>
             </CardContent>
@@ -189,6 +189,9 @@ const Index = () => {
               </Card>
             ))}
           </div>
+        <p className="text-center text-muted-foreground text-lg mt-12 italic">
+  ...and many more services tailored to your family’s unique needs.
+</p>
         </div>
       </section>
 
